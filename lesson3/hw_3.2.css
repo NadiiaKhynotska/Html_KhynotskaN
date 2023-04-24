@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: 'Jost';
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+    margin: 74px 93px;
+
+
+
+}
+ ul li a{
+    text-decoration: none;
+     color: #7A7070;
+     font-size: 35px;
+}
+ .home{
+     color: #3D6FB4;
+ }
+ main{
+     display: flex;
+     justify-content: center;
+     margin: 33px 135px;
+ }
+ article{
+     display: flex;
+     flex-direction: column;
+
+ }
+ article h1{
+     font-size: 70px;
+     line-height: 101px;
+     box-sizing: border-box;
+     width: 388px;
+     height: 202px;
+     margin-bottom: 52px;
+ }
+ article p{
+     box-sizing: border-box;
+     width: 608px;
+     height: 209px;
+     font-size: 35px;
+     line-height: 51px;
+     margin: 0;
+ }
+ .btns{
+     display: flex;
+     margin-top: 48px;
+ }
+ .btnVideo{
+     box-sizing: border-box;
+     width: 150px;
+     height: 55px;
+     border: 1px solid #000000;
+     border-radius: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 46px;
+ }
+ .btnMore{
+     box-sizing: border-box;
+     width: 130px;
+     height: 55px;
+     background: #ECBCBC;
+     border: 1px solid #000000;
+     border-radius: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .imgCopple{
+     width: 621px;
+     height: 621px;
+     background-image: url("img_2.png");
+     background-size: cover;
+ }

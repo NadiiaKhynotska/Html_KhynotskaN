@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hW_4.5</title>
+  <style>
+    body{
+      margin: 0;
+      font-family: Arial;
+    }
+    main{
+      height: 100vh;
+      width: 100vw;
+      background-color: #BAB5B5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    form{
+      height: 450px;
+      width: 550px;
+      background-color: white;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    .title{
+      width: 100%;
+      border-bottom: 2px solid grey;
+      text-align: center;
+    }
+    .inputFields{
+      height:500px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 18px;
+
+    }
+    .inputName{
+      height: 25px;
+      width: 400px;
+      font-size: 20px;
+    }
+    p{
+      text-align: left;
+    }
+    .checkbox{
+      display: flex;
+      margin-right: 10px;
+    }
+    .buttons{
+      height: 50px;
+      width: 420px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .submit , .reset{
+      height: 30px;
+      width: 200px;
+      background-color: rgba(102, 205, 170, 0.52);
+      border: 1px solid grey;
+      border-radius: 9px;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <form>
+    <div class="title">
+      <h1> Заповніть поля анкети</h1>
+    </div>
+    <div class="inputFields">
+      <label> <input class="inputName" type="text" name="name" required placeholder="Ваше ім'я:"></label>
+      <br>
+      <label> <input class="inputName" type="text" name="soname" required placeholder="Ваше прізвище:"></label>
+      <br>
+      <label> Ваша стать:
+        <label>Жіноча<input type="radio" name="gender" value="female"></label>
+        <label>Чоловіча<input type="radio" name="gender" value="male"></label>
+      </label>
+      <p>Послугами якої сотової компанії ви користуєтеся:</p>
+      <div class="checkbox"><label>KyivStar<input type="checkbox" name="kivStar"></label>
+        <label>MTS<input type="checkbox" name="mts"></label>
+        <label>Life:)<input type="checkbox" name="life"></label>
+        <label>PeopleNet<input type="checkbox" name="peoleNet"></label>
+        <label>Utel<input type="checkbox" name="utel"></label></div>
+    </div>
+    <div class="buttons">
+      <input class="submit" type="submit" value="Надіслати анкету">
+      <input class="reset" type="reset" value="Очистити бланк">
+    </div>
+  </form>
+</main>
+
+</body>
+</html>

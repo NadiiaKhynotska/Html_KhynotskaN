@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+    overflow-x:hidden;
+}
+.section-1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("image 4.png");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 393px;
+    width: 529px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.content{
+    height: 393px;
+    width: 529px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    width: 253px;
+    height: 59px;
+    font-weight: 400;
+    font-size: 45px;
+    color: #000000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 53px 0 44px;
+}
+.content-p{
+    width: 293px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 0 44px;
+}
+.content-btn{
+    width: 409px;
+    height: 76px;
+    background: rgba(217, 217, 217, 0.6);
+    border: 1px solid rgba(156, 152, 152, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+}
+/*---------------------------section-2---------------------------------*/
+.section-2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("bacgroundOpasity.svg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+/*.section-2::after{*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    background-color: white;*/
+/*    opacity:1;*/
+/*    position: absolute;*/
+/*}*/
+.video-content{
+    width: 949px;
+    height: 533px;
+    margin: 90px 282px;
+}
+.video{
+    width: 949px;
+    height: 533px
+}
+.text-content{
+    width: 949px;
+    height: 188px;
+    font-weight: 400;
+    font-size: 35px;
+}
+.text-content p{
+    margin: 0;
+}
+/*-------------------------section-3------------------------------*/
+.section-3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("bacgroundOpasity.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-1{
+    width: 453px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 160px 50px;
+}
+.box-img{
+    width: 408px;
+    height: 214px;
+    margin: 25px 22px 32px;
+}
+.box-h2{
+    width: 115px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0 170px 24px;
+}
+.box-p{
+    width: 410px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0 17px 62px 27px;
+}
+.box-prise{
+    width: 65px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0 195px 25px;
+}
+.box-btn{
+    color: #6B6666;
+}

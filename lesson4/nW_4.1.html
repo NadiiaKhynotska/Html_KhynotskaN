@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hW_4.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Raleway', sans-serif;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            height: 100vh;
+            width: 100vw;
+            background-color: #85beab;
+        }
+        form{
+            width: 55vw;
+            height: 52vh;
+            background-color: white;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 34px;
+        }
+        .formTitle{
+            height: 25%;
+            width: 100%;
+            background-color: aliceblue;
+            border-radius: 35px 35px 0 0;
+            font-size: 2em;
+        }
+        .inputs{
+            height: 75%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            align-items: center;
+        }
+        .loginOrPassword, .password{
+            height: 60px;
+            width: 500px;
+            font-size: 1.5em;
+        }
+        .formFooter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 500px;
+            font-size: 1.5em;
+        }
+        .checkbox{
+            height: 20px;
+            width: 20px;
+        }
+        .enter{
+            height: 60px;
+            width: 180px;
+            border: 1px solid black;
+            border-radius: 18px;
+            background-color: #85BEABFF;
+            font-size: 1em;
+
+        }
+    </style>
+</head>
+<body>
+
+<main class="center">
+    <form>
+        <div class="formTitle center">
+            <h1>Вхід в особистий кабінет</h1>
+        </div>
+        <div class="inputs">
+            <label><input type="text" class="loginOrPassword" name="loginOrPassword" placeholder="Логін або email"></label>
+            <label><input type="password" class="password" name="password" placeholder="Пароль"></label>
+            <div class="formFooter">
+                <label> Запам'ятати мене<input type="checkbox" class="checkbox" name="checkbox" value="checkbox"></label>
+                <button class="enter">Вхід</button>
+            </div>
+        </div>
+
+    </form>
+
+</main>
+
+</body>
+</html>

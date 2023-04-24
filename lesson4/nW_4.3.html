@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nW_4.3</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        main{
+            width: 100vw;
+            height: 100vh;
+            background-color: #A9A8A8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            width: 30vw;
+            height: 44vh;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #A9A8A8;
+        }
+        .inputName{
+            width: 365px;
+            display: flex;
+            justify-content:space-between;
+        }
+        .inputName input{
+            height:35px;
+            width: 45%;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        input{
+            height:35px;
+            width: 350px;
+            margin: 10px 0;
+            font-size: 20px;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        p{
+            display: block;
+            width: 330px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .submit{
+            background: linear-gradient(to right, #ffff00 0%, #ffcc00 74%);
+            border: 1px solid goldenrod;
+            color: #504f4f;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <form>
+        <div class="inputName">
+            <label for="fName"></label>
+            <input type="text" name="fName" id="fName" placeholder="First name" required>
+
+            <label for="lName"></label>
+            <input type="text" name="lName" id="lName" placeholder="Last name" required>
+        </div>
+
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email address" required>
+
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Password (6 or more characters)" required>
+        <br><br>
+
+        <p>By clicking Join Now, you are agree to Linkedin's <a href="#">User Agreement</a>, <a href="#">Privacy
+            Policy</a> and <a href="#">Cookie
+            Policy</a>.
+        </p>
+
+        <input type="submit" class="submit" value="Join now">
+    </form>
+</main>
+</body>
+</html>

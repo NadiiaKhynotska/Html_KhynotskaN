@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+form {
+    height: 540px;
+    width: 370px;
+    border: 1px solid  #dbdbdb;
+    background-color: white;
+    justify-content: space-evenly;
+
+}
+
+.inputSection {
+    height: 460px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.instaLogo {
+    height: 51px;
+    width: 175px;
+
+}
+
+.inputFields {
+    height: 38px;
+    width: 268px;
+    margin: 5px;
+    padding: 3px;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    background-color: rgba(0, 149, 246, .6);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 48px;
+    width: 278px;
+    cursor: pointer;
+}
+.or{
+    color: rgba(142,142,142,1);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.facebookLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebookIcon{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.facebookEnter{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+}
+.forgot{
+    text-decoration: none;
+    color: #00376b;
+    font-weight: 400;
+}
+.formFooter{
+    width: 350px;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+}
+p{
+    padding: 2px;
+}
+p a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
+}

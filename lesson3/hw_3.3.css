@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-size: 32px;
+
+}
+#red{
+    height: 100vh;
+    background-color: #b61b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#yellow{
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#green{
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+p{
+    width: 90vw;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
